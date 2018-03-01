@@ -2,7 +2,7 @@ const expect = require("chai").expect;
 const program = require("../src/exercise3");
 
 describe(`${program.title}`, function() {
-  it.only("Function meeteek should not suggest people if sex partner is not approved in a bidirectionnal way", function() {
+  it("Function meeteek should not suggest people if sex partner is not approved in a bidirectionnal way", function() {
     const input = [
       {
         firstname: "roger",
@@ -79,13 +79,13 @@ describe(`${program.title}`, function() {
       {
         firstname: "roger",
         sex: 1,
-        interests: ["soccer", "beer", "cooking"],
+        interests: ["soccer", "beer", "cooking", "fishing", "tv show"],
         sexPartnerApproved: [2]
       },
       {
         firstname: "jane",
         sex: 2,
-        interests: ["cooking", "cinema", "swimming"],
+        interests: ["cooking", "cinema", "fishing", "swimming"],
         sexPartnerApproved: [1]
       },
       {
@@ -103,18 +103,25 @@ describe(`${program.title}`, function() {
       {
         firstname: "lucy",
         sex: 2,
-        interests: ["soccer", "beer", "beach", "cinema", "video game"],
+        interests: [
+          "soccer",
+          "beer",
+          "beach",
+          "cinema",
+          "video game",
+          "tv show"
+        ],
         sexPartnerApproved: [1, 2]
       }
     ];
 
     const output = {
       roger: [
-        { firstname: "lucy", commonInterests: ["soccer", "beer"] },
-        { firstname: "jane", commonInterests: ["cooking"] }
+        { firstname: "lucy", commonInterests: ["soccer", "beer", "tv show"] },
+        { firstname: "jane", commonInterests: ["cooking", "fishing"] }
       ],
       jane: [
-        { firstname: "roger", commonInterests: ["cooking"] },
+        { firstname: "roger", commonInterests: ["cooking", "fishing"] },
         { firstname: "aldo", commonInterests: ["swimming"] }
       ],
       steevy: [],
@@ -123,7 +130,7 @@ describe(`${program.title}`, function() {
         { firstname: "jane", commonInterests: ["swimming"] }
       ],
       lucy: [
-        { firstname: "roger", commonInterests: ["soccer", "beer"] },
+        { firstname: "roger", commonInterests: ["soccer", "beer", "tv show"] },
         { firstname: "aldo", commonInterests: ["beach", "video game"] }
       ]
     };
