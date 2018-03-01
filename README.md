@@ -8,23 +8,23 @@ Exercises to evaluate students about basic functional programming in JavaScript.
 
 Please install dependencies first.
 
-	npm install
+    npm install
 
 ### Tests & lint
 
 To launch the tests.
 
-	npm test
+    npm test
 
 To lint sources.
 
-	npm run lint
+    npm run lint
 
 ### Start
 
 To start program.
 
-	npm start
+    npm start
 
 ## Exercises
 
@@ -42,17 +42,17 @@ To implement the function, you should do in a functional way WITHOUT using Lodas
 
 But you cloud use the moment library to manipulate dates.
 
-- :point_right: [`moment()`](https://momentjs.com/docs/#/parsing/unix-timestamp-milliseconds/)
-- :point_right: [`year()`](https://momentjs.com/docs/#/get-set/year/)
-- :point_right: [`month()`](https://momentjs.com/docs/#/get-set/month/)
+* :point_right: [`moment()`](https://momentjs.com/docs/#/parsing/unix-timestamp-milliseconds/)
+* :point_right: [`year()`](https://momentjs.com/docs/#/get-set/year/)
+* :point_right: [`month()`](https://momentjs.com/docs/#/get-set/month/)
 
 All tests describe in file **_test/exercise1.test.js_** should pass with success, and it's forbidden to change this file.
 
 After finish this exercise, please commit all your files.
 
-	git add .
+    git add .
 
-	git commit -m "Exercise 1"
+    git commit -m "Exercise 1"
 
 ### Exercise 2
 
@@ -64,6 +64,24 @@ The test should pass with success.
 
 After finish this exercise, please commit all your files.
 
-	git add .
+    git add .
 
-	git commit -m "Exercise 2"
+    git commit -m "Exercise 2"
+
+### Exercise 3
+
+Implement the function `meeteek(input)` in file **_src/exercise3.js_** where the input is an array of people.
+
+The function should return .
+
+You don't understand what you need to do ?
+
+Don't stress tests are written in file **_test/exercise3.test.js_** to explain the behaviour of the function.
+
+To implement the function, you should do in a functional with or without Lodash.
+
+After finish this exercise, please commit all your files.
+
+    git add .
+
+    git commit -m "Exercise 3"
