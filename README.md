@@ -85,3 +85,23 @@ After finish this exercise, please commit all your files.
     git add .
 
     git commit -m "Exercise 3"
+
+### Exercise 4
+
+Implement the function +countSequence(sequence, input)+ in file **_src/exercise4.js_** where sequence and input are strings, the output the number of sequence into the input.
+
+You don't understand what you need to do ?
+
+Don't stress tests are written in file **_test/exercise4.test.js_** and they should pass with success.
+
+To implement the function, you should do in a RECURSIVE WAY.
+
+Then the function should be able to work in a CURRY WAY too.
+
+:point_right: [split](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/split) could help you.
+
+After finish this exercise, please commit all your files.
+
+    git add .
+
+    git commit -m "Exercise 4"
