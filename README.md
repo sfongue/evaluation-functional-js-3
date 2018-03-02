@@ -42,9 +42,9 @@ To implement the function, you should do in a functional way WITHOUT using Lodas
 
 But you cloud use the moment library to manipulate dates.
 
-:point_right: [`moment()`](https://momentjs.com/docs/#/parsing/unix-timestamp-milliseconds/)
-:point_right: [`year()`](https://momentjs.com/docs/#/get-set/year/)
-:point_right: [`month()`](https://momentjs.com/docs/#/get-set/month/)
+* :point_right: [`moment()`](https://momentjs.com/docs/#/parsing/unix-timestamp-milliseconds/)
+* :point_right: [`year()`](https://momentjs.com/docs/#/get-set/year/)
+* :point_right: [`month()`](https://momentjs.com/docs/#/get-set/month/)
 
 All tests describe in file **_test/exercise1.test.js_** should pass with success, and it's forbidden to change this file.
 
@@ -56,7 +56,7 @@ After finish this exercise, please commit all your files.
 
 ### Exercise 2
 
-The function +yolo(input)+ in file **_src/exercise2.js_** has been implemented by an another developper and the test is present in **_test/exercise2.js_**, but he forgot to commit the input to pass the test ...
+The function `yolo(input)` in file **_src/exercise2.js_** has been implemented by an another developper and the test is present in **_test/exercise2.js_**, but he forgot to commit the input to pass the test ...
 
 Could you guess the input "whereIsMyMind" please ? Becareful only this input should change.
 
@@ -82,8 +82,8 @@ To implement the function, you should do in a functional way.
 
 You cloud use the Lodash library to help you.
 
-:point_right: [`includes()`](https://lodash.com/docs/4.17.5#includes)
-:point_right: [`intersection()`](https://lodash.com/docs/4.17.5#intersection)
+* :point_right: [`includes()`](https://lodash.com/docs/4.17.5#includes)
+* :point_right: [`intersection()`](https://lodash.com/docs/4.17.5#intersection)
 
 After finish this exercise, please commit all your files.
 
@@ -93,7 +93,7 @@ After finish this exercise, please commit all your files.
 
 ### Exercise 4
 
-Implement the function +countSequence(sequence, input)+ in file **_src/exercise4.js_** where sequence and input are strings, the output the number of sequence into the input.
+Implement the function `countSequence(sequence, input)` in file **_src/exercise4.js_** where sequence and input are strings, the output the number of sequence into the input.
 
 You don't understand what you need to do ?
 
@@ -101,7 +101,7 @@ Don't stress tests are written in file **_test/exercise4.test.js_** and they sho
 
 Be careful the function should be able to work in a CURRY WAY too.
 
-:point_right: [`split()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/split) could help you.
+* :point_right: [`split()`](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/split) could help you.
 
 After finish this exercise, please commit all your files.
 
